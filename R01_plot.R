@@ -11,3 +11,7 @@ hist(iris$Sepal.Length,
 # ?plot for a plot help
 
 plot(iris)
+plot(iris$Species) # Categorical variable
+plot(iris$Petal.Length) # Quantitative variable
+plot(iris$Species, iris$Petal.Width) # Cat x quant
+plot(iris$Petal.Length, iris$Petal.Width) # Quant pair
